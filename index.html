@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIGHNA 26 - The Path of Wisdom</title>
+    
+    <!-- Yahan hum direct CSS likh rahe hain taaki koi cache issue na aaye -->
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #0B0C10; /* Premium Dark Background */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      
+      #app {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      canvas {
+        box-shadow: 0px 0px 40px rgba(242, 169, 0, 0.2); /* Cinematic Golden Glow around the game */
+        border-radius: 8px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Ye wo jagah hai jahan tumhara Phaser game chalega -->
+    <div id="app"></div>
+    
+    <!-- Ye tumhare game ke main code ko link kar raha hai -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
